@@ -17,6 +17,7 @@ namespace DemoLibrary1.Tests
         {
             string actual = Examples.ExampleLoadTextFile("This is a valid filename");
             Assert.True(actual.Length > 0);
+            //change
         }
 
     }
